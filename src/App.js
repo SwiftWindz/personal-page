@@ -1,20 +1,23 @@
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import Header from "./pages/Head"
-import Portfolio from "./pages/Portfolio"
-import Resume from "./pages/Resume"
-
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Layout from "./pages/Layout";
+import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
 
 
 export default function App() {
   return (
-    <>
-    <Navbar/>
-    <Header/>
-    <About/>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }

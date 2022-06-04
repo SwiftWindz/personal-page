@@ -12,9 +12,9 @@ const Navbar = () => {
                 <div className="flex justify-center py-8">
                     <ul className="hidden md:flex flex-row text-center rounded-2xl shadow-2xl p-2 px-8 bg-zinc-600 pb- text-white font-outfit">
                         <button><li className="hover:text-violet-200 px-8"><Link to="/">About</Link></li></button>
-                        <button><li className="hover:text-violet-200 px-8"><Link to="/">About</Link></li></button>
-                        <button><li className="hover:text-violet-200 px-8"><Link to="/">About</Link></li></button>
-                        <button><li className="hover:text-violet-200 px-8"><Link to="/">About</Link></li></button>
+                        <button><li className="hover:text-violet-200 px-8"><Link to="/portfolio">Portfolio</Link></li></button>
+                        <button><li className="hover:text-violet-200 px-8"><Link to="/resume">Resume</Link></li></button>
+                        <button><li className="hover:text-violet-200 px-8"><Link to="/contact">Contact</Link></li></button>
                     </ul>
                 </div>
                 <div className="flex md:hidden mt-[-75px]" onClick={handleClick}>
@@ -24,10 +24,10 @@ const Navbar = () => {
             <div className="md:hidden font-outfit">
                 <ul className={!nav ? "hidden" : "absolute bg-white  w-full h-screen px-8 py-10"}>
                 <h2 className="py-1">PG</h2>
-                <button><li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><Link to="home"  smooth={true} offset={0} duration={500}> About</Link></li></button>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><Link to="about"  smooth={true} offset={-200} duration={500}>Portfolio</Link></li>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><Link to="about"  smooth={true} offset={-200} duration={500}>Resume</Link></li>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><Link to="support"  smooth={true} offset={-50} duration={500}>Contact</Link></li>
+                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/">About</Link></button></li>
+                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/portfolio">Portfolio</Link></button></li>
+                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/resume">Resume</Link></button></li>
+                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li>
                 </ul>
             </div>
         </div>
