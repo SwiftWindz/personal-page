@@ -10,10 +10,10 @@ const Navbar = () => {
         <div className="w-screen sm:h-[50px] md:h-[80px] z-10 fixed drop-shadow-lg">
             <div className="px-2 w-full">
                 <div className="flex justify-center py-8">
-                    <ul className="hidden md:flex flex-row text-center rounded-2xl shadow-2xl p-2 px-8 bg-zinc-600 pb- text-white font-outfit">
+                    <ul className="hidden md:flex flex-row text-center rounded-2xl shadow-2xl p-2 px-8 bg-zinc-600 text-white font-outfit">
                         <button><li className="hover:text-violet-200 px-8"><Link to="/">About</Link></li></button>
                         <button><li className="hover:text-violet-200 px-8"><Link to="/portfolio">Portfolio</Link></li></button>
-                        <button><li className="hover:text-violet-200 px-8"><Link to="/resume">Resume</Link></li></button>
+                        <button><li className="hover:text-violet-200 px-8"><Link to='/resume'>Resume</Link></li></button>
                         <button><li className="hover:text-violet-200 px-8"><Link to="/contact">Contact</Link></li></button>
                     </ul>
                 </div>

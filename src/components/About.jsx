@@ -5,7 +5,7 @@ export default function About() {
     <div name='about' className='w-full py-20 font-outfit bg-zinc-600 text-white'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
-                <h2 className='text-4xl md:text-5xl font-bold'> <a className='font-bold' href="https://www.youtube.com/watch?v=rEq1Z0bjdwc&ab_channel=ShortClips" target="_blank" rel="noreferrer noopener">Hello there!</a>  Welcome to my website.</h2>
+                <h2 className='text-4xl md:text-5xl font-bold'> <a className='font-bold hover:text-violet-200'  href="https://www.youtube.com/watch?v=rEq1Z0bjdwc&ab_channel=ShortClips" target="_blank" rel="noreferrer noopener">Hello there!</a>  Welcome to my website.</h2>
                 <p className='text-2xl md:text-3xl text-white py-6'>I'm a student software engineer based out of Rochester, New York. </p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-2 text-center'>

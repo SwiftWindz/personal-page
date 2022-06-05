@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Layout from "./pages/Layout";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import Resume from "./pages/Resume";
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
