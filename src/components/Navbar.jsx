@@ -18,7 +18,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex md:hidden mt-[-75px]" onClick={handleClick}>
-                    {!nav ? <button><MenuIcon className="w-10 pt-5 animate-pulse text-black"/></button> : <button><XIcon className="text-black pt-5 w-10 animate-pulse py-5"/></button>}
+                    {!nav ? <button><MenuIcon className="w-10 pt-5 animate-pulse text-zinc-700"/></button> : <button><XIcon className="text-zinc-700 pt-5 w-10 animate-pulse py-5"/></button>}
                 </div>
             </div>
             <div className="md:hidden font-outfit">
