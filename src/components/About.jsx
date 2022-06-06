@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div name='about' className='w-screen py-20 font-outfit bg-zinc-600 text-white'>
+    <div name='about' className='w-full py-20 font-outfit bg-zinc-600 text-white'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
                 <h2 className='text-4xl md:text-5xl font-bold'> <a className='font-bold hover:text-violet-200'  href="https://www.youtube.com/watch?v=rEq1Z0bjdwc&ab_channel=ShortClips" target="_blank" rel="noreferrer noopener">Hello there!</a>  Welcome to my website.</h2>

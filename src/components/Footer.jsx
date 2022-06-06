@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className='w-screen h-full bg-zinc-700 py-7 px-2'>
+    <div className='w-full h-full bg-zinc-700 py-7 px-2'>
         <div className=' border-t-2 border-white flex flex-col max-w-[1240px] px-2 mx-auto justify-between sm:flex-row text-center text-white'>
             <p className='py-4'>Phil Ganem, 2022</p>
             <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
