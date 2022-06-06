@@ -15,7 +15,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="/projects" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

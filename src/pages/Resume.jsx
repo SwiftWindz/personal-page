@@ -13,7 +13,7 @@ export default function Resume() {
             <div className='pb-10'>
               <p className='text-6xl font-bold text-purple-500'>My Resume. Grab one!</p>
             </div>
-            <embed className='w-[400px] h-[550px] md:w-[700px] md:h-[920px]' src={pdf} type="" />
+            <embed className='w-[315px] h-[425px] sm:w-[400px] sm:h-[550px] md:w-[700px] md:h-[920px]' src={pdf} type="" />
           </div>
         </div>
       </div>

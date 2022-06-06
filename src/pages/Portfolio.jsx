@@ -12,8 +12,8 @@ export default function Portfolio() {
           Eos tenetur labore nobis quibusdam omnis perspiciatis illo earum consequuntur itaque aspernatur?</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5 px-8'>
-            <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center'>Multi-User Dungeon</p>
+            <div className='border py-8 rounded-xl shadow-2xl bg-white un'>
+                <p className='text-6xl font-bold text-purple-500 text-center underline'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <ul className='list-disc pt-0 p-14 list-inside'>
@@ -26,7 +26,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center'>Webcheckers</p>
+                <p className='text-6xl font-bold text-purple-500 text-center underline'>Webcheckers</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <ul className='list-disc pt-0 p-14 list-inside'>
@@ -40,7 +40,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center'>Nutrikit</p>
+                <p className='text-6xl font-bold text-purple-500 text-center underline'>Nutrikit</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <ul className='list-disc pt-0 p-14 list-inside'>
@@ -57,7 +57,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center'>Lorem.</p>
+                <p className='text-6xl font-bold text-purple-500 text-center underline'>Lorem.</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
