@@ -7,7 +7,7 @@ export default function Resume() {
 
   return (
     <>
-      <div className='w-full h-full pt-[100px] font-outfit bg-gradient-to-br from-violet-600 to-gray-400 text-white text-center'>
+      <div className='w-full h-full pt-[60px] md:pt-[100px] font-outfit bg-gradient-to-br from-violet-600 to-gray-400 text-white text-center'>
         <div className='grid place-items-center pb-10'>
           <div className='border m-4 p-3 md:m-0 md:p-10 rounded-xl shadow-2xl bg-white grid place-items-center pb-10'>
             <div className='pb-10'>
