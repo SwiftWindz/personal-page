@@ -11,7 +11,7 @@ export default function Portfolio() {
           <p className='text-3xl md:text-4xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Eos tenetur labore nobis quibusdam omnis perspiciatis illo earum consequuntur itaque aspernatur?</p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 px-8'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-8'>
             <div className='border py-8 rounded-xl shadow-2xl bg-white un'>
                 <p className='text-6xl font-bold text-purple-500 text-center underline'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
@@ -22,7 +22,7 @@ export default function Portfolio() {
                     <li>Used <strong>JUnit</strong> to create extensive unit tests for the game</li>
                     <li>Used a <strong>PostgreSQL database</strong> to store player data.</li>
                  </ul>
-                <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
+                {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
@@ -36,7 +36,7 @@ export default function Portfolio() {
                   <li>Gave regular in-class demos to colleagues</li>
                   <li>Utilized object-oriented design principles to create to create clear, modular, maintainable code</li>
                 </ul>
-                <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
+                {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
@@ -53,17 +53,17 @@ export default function Portfolio() {
                       within the database and visualizing their goals with an interactive progress bar and nutrition label</li>
                   <li>Conducted weekly <strong>peer-to-peer code reviews</strong> over the course of the project</li>
                </ul>
-                <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
+                {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
               </div>
             </div>
-            <div className='border py-8 rounded-xl shadow-2xl bg-white'>
+            {/* <div className='border py-8 rounded-xl shadow-2xl bg-white'>
                 <p className='text-6xl font-bold text-purple-500 text-center underline'>Lorem.</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
               </div>
             </div>
-        
+         */}
         </div>
      </div>
      <Footer></Footer>
