@@ -10,7 +10,7 @@ export default function Portfolio() {
           <p className='text-3xl md:text-4xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Eos tenetur labore nobis quibusdam omnis perspiciatis illo earum consequuntur itaque aspernatur?</p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-8 text-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 px-8 text-center'>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
                 <p className='text-6xl font-bold text-purple-500'>Lorem.</p>
                 <p className='text-black mt-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
