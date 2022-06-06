@@ -13,7 +13,7 @@ export default function Portfolio() {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-8'>
             <div className='border py-8 rounded-xl shadow-2xl bg-white un'>
-                <p className='text-6xl font-bold text-purple-500 text-center underline'>Multi-User Dungeon</p>
+                <p className='font-bold text-purple-500 text-center underline text-5xl md:text-6xl'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <ul className='list-disc pt-0 p-14 list-inside'>
@@ -26,7 +26,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center underline'>Webcheckers</p>
+                <p className='text-5xl md:text-6xl font-bold text-purple-500 text-center underline'>Webcheckers</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <ul className='list-disc pt-0 p-14 list-inside'>
@@ -40,7 +40,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center underline'>Nutrikit</p>
+                <p className='text-5xl md:text-6xl font-bold text-purple-500 text-center underline'>Nutrikit</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <ul className='list-disc pt-0 p-14 list-inside'>
