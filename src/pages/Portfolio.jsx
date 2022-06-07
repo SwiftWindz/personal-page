@@ -7,9 +7,9 @@ export default function Portfolio() {
     <>
       <div className='w-screen pt-12 bg-gradient-to-br from-violet-600 to-gray-400 font-outfit pb-24 text-black'>
         <div className='text-white text-center py-10 px-5 md:px-24'>
-          <h1 className='text-6xl md:text-7xl font-bold'>Lorem.</h1>
-          <p className='text-3xl md:text-4xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Eos tenetur labore nobis quibusdam omnis perspiciatis illo earum consequuntur itaque aspernatur?</p>
+          <h1 className='text-6xl md:text-7xl font-bold'>My Projects</h1>
+          <p className='text-3xl md:text-4xl pt-4'>Some new, some old, and all of them learning experiences. I present to you a list of both my
+          personal and school projects as well as key information about all of them. Enjoy!</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-8'>
             <div className='border py-8 rounded-xl shadow-2xl bg-white un'>

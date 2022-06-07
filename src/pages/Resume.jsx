@@ -11,7 +11,7 @@ export default function Resume() {
         <div className='grid place-items-center pb-10'>
           <div className='border m-4 p-3 md:m-0 md:p-10 rounded-xl shadow-2xl bg-white grid place-items-center pb-10'>
             <div className='pb-10'>
-              <p className='text-6xl font-bold text-purple-500'>My Resume. Grab one!</p>
+              <p className='text-6xl font-bold text-purple-500'>My Resume. Grab One!</p>
             </div>
             <embed className='w-[315px] h-[425px] sm:w-[400px] sm:h-[550px] md:w-[700px] md:h-[920px]' src={pdf} type="" />
           </div>
