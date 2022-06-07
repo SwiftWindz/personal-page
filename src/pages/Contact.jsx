@@ -10,7 +10,7 @@ export default function Contact() {
   }
   return (
     <>
-    <div className='w-screen h-screen bg-gradient-to-br from-violet-600 to-gray-400 font-outfit text-black'>
+    <div className='w-full h-screen bg-gradient-to-br from-violet-600 to-gray-400 font-outfit text-black'>
           <div className=' p-10 rounded-xl'>
              <div className=' grid py-10 rounded-xl  text-center place-items-center text-white'>
                 <p className='text-4xl md:text-6xl font-bold '>Lets get in contact!</p>

@@ -20,8 +20,8 @@ export default function Footer() {
             <div className='flex justify-between sm:w-[300px] pt-2 text-2xl'>
                 <a className="hover:text-violet-200" href="https://github.com/SwiftWindz"><FaGithub /></a>
                 <a className="hover:text-violet-200" href="https://www.linkedin.com/in/phil-ganem/"><FaLinkedin /></a>
-                <a className="hover:text-violet-200" href="https://www.instagram.com/im_just_phil/"><FaInstagram /></a>
-                <a className="hover:text-violet-200" href="https://twitter.com/PhilBreaksCode"><FaTwitter /></a>
+                {/* <a className="hover:text-violet-200" href="https://www.instagram.com/im_just_phil/"><FaInstagram /></a>
+                <a className="hover:text-violet-200" href="https://twitter.com/PhilBreaksCode"><FaTwitter /></a> */}
                 <a className="hover:text-violet-200" aria-disabled="false" target="_self" href="mailto:philthesoftdev@gmail.com?subject=Hello there!"><MdEmail /></a>
             </div>
             </div>
