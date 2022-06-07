@@ -11,8 +11,8 @@ export default function Contact() {
   return (
     <>
     <div className='w-screen h-screen bg-gradient-to-br from-violet-600 to-gray-400 font-outfit text-black'>
-          <div className=' p-10 rounded-xl '>
-             <div className=' grid py-8 rounded-xl  text-center place-items-center text-white'>
+          <div className=' p-10 rounded-xl'>
+             <div className=' grid py-10 rounded-xl  text-center place-items-center text-white'>
                 <p className='text-4xl md:text-6xl font-bold '>Lets get in contact!</p>
                 <p className=' mt-2 px-5 py-2 text-3xl md:text-4xl'>Have something you want to tell me? Send me an email below!</p>
               <div className='pt-10'>
