@@ -14,7 +14,7 @@ const Navbar = () => {
                         <button><li className="hover:text-violet-200 px-8"><Link to="/">About</Link></li></button>
                         <button><li className="hover:text-violet-200 px-8"><Link to="/projects">Projects</Link></li></button>
                         <button><li className="hover:text-violet-200 px-8"><Link to='/resume'>Resume</Link></li></button>
-                        {/* <button><li className="hover:text-violet-200 px-8"><Link to="/contact">Contact</Link></li></button> */}
+                        <button><li className="hover:text-violet-200 px-8"><Link to="/contact">Contact</Link></li></button>
                     </ul>
                 </div>
                 <div className="flex md:hidden mt-[-75px]" onClick={handleClick}>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/">About</Link></button></li>
                 <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/projects">Projects</Link></button></li>
                 <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/resume">Resume</Link></button></li>
-                {/* <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li> */}
+                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li>
                 </ul>
             </div>
         </div>
