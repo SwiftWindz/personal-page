@@ -1,13 +1,13 @@
 import React, {useState} from "react";
 import {MenuIcon, XIcon} from "@heroicons/react/outline";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
 
     return(
-        <div className="w-screen sm:h-[50px] md:h-[80px] z-10 fixed drop-shadow-lg">
+        <div className="w-screen sm:h-[50px] md:h-[80px] z-10 fixed drop-shadow-xl">
             <div className="px-2 w-full">
                 <div className="flex justify-center py-8">
                     <ul className="hidden md:flex flex-row text-center rounded-2xl shadow-2xl p-2 px-8 bg-zinc-600 text-white font-outfit">

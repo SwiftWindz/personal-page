@@ -13,7 +13,11 @@ export default function Projects() {
             <div className='border py-8 rounded-xl shadow-2xl bg-white un'>
                 <p className='font-bold text-purple-500 text-center underline text-4xl lg:text-6xl'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
-                <p className='text-black mt-3 pb-10 px-5 text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore ut quasi quia natus? Amet expedita omnis veniam laudantium dicta reprehenderit, corrupti quidem commodi iure! Quidem, atque adipisci ipsa maiores eveniet veniam libero, repudiandae illum assumenda aspernatur, fugit dolore recusandae blanditiis delectus quas! Dolore nesciunt nisi cumque officiis dolorem perferendis repudiandae, explicabo beatae animi in ipsum modi, officia quos aperiam molestiae doloremque autem sequi odit labore. Nihil excepturi error iste, maxime ipsum, officiis quis possimus odit, quisquam assumenda illo. Earum, in.</p>
+                <p className='text-black mt-4 pb-10 px-5 text-center'>
+                    Multi-User Dungeon, or MUD, is a 2D rouge-like game. Users could create and use accounts to save their progress. The game itself had two mode, endless and premade mode. In endless, players 
+                    would navagate an endless procedurally generated dungeon in search of loot to increase their profile score. They could quit and return at anytime to the same map. In premade mode, players could choose from a list of premade dungeons with
+                    with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles.  
+                </p>
                 {/* <ul className='list-disc pt-0 p-14 list-inside'>
                     <li>Worked on a team of 5 developers to create a rogue-like video game using <strong>Java</strong> over a week period.</li>
                     <li>Used Java to implement <strong>design patterns</strong> layed out within <strong><i>Design Patterns Elements of Reusable Object-Oriented Software</i></strong> as well as <strong>MVC</strong>.</li>
@@ -32,7 +36,11 @@ export default function Projects() {
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
                 <p className='text-4xl lg:text-6xl font-bold text-purple-500 text-center underline'>Webcheckers</p>
               <div className='grid place-items-center'>
-                <p className='text-black mt-3 pb-10 px-5 text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore ut quasi quia natus? Amet expedita omnis veniam laudantium dicta reprehenderit, corrupti quidem commodi iure! Quidem, atque adipisci ipsa maiores eveniet veniam libero, repudiandae illum assumenda aspernatur, fugit dolore recusandae blanditiis delectus quas! Dolore nesciunt nisi cumque officiis dolorem perferendis repudiandae, explicabo beatae animi in ipsum modi, officia quos aperiam molestiae doloremque autem sequi odit labore. Nihil excepturi error iste, maxime ipsum, officiis quis possimus odit, quisquam assumenda illo. Earum, in.</p>
+                <p className='text-black mt-4 pb-10 px-5 text-center'>
+                    Webcheckers is an online multiplayer game of checkers. Players may make an account and select from other online players to play against.
+                    The game is operated with the same rules as American Checkers. The game also supports hint functionality, which allows the player to see the best move againt their opponent
+                    and view the rules at any time.
+                </p>
                 {/* <ul className='list-disc pt-0 p-14 list-inside'>
                   <li>Worked with a team of five to create a web application for player-versus-player checkers in <strong>Java</strong> with
                   the <strong>Java Spark</strong> framework.</li>
@@ -51,7 +59,11 @@ export default function Projects() {
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
                 <p className='text-4xl lg:text-6xl font-bold text-purple-500 text-center underline'>Nutrikit</p>
               <div className='grid place-items-center'>
-                <p className='text-black mt-3 pb-10 px-5 text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore ut quasi quia natus? Amet expedita omnis veniam laudantium dicta reprehenderit, corrupti quidem commodi iure! Quidem, atque adipisci ipsa maiores eveniet veniam libero, repudiandae illum assumenda aspernatur, fugit dolore recusandae blanditiis delectus quas! Dolore nesciunt nisi cumque officiis dolorem perferendis repudiandae, explicabo beatae animi in ipsum modi, officia quos aperiam molestiae doloremque autem sequi odit labore. Nihil excepturi error iste, maxime ipsum, officiis quis possimus odit, quisquam assumenda illo. Earum, in.</p>
+                <p className='text-black mt-4 pb-10 px-5 text-center'>
+                    Nutrikit is a full-stack web application that allows users to track their caloric intake and create meal plans. Users have the ability to create caloric and nutritional goals that they wished to meet or pick from preset ones provided to them.
+                    From here, users could select food to add to their meal plan and view the nutritional values of said food items provided from a database. The application would alert them if the selected foods did not meet their plan.
+                    Users could also submit their own foods to the database for future use in their meal plans
+                </p>
                 {/* <ul className='list-disc pt-0 p-14 list-inside'>
                   <li><strong>Full-stack</strong> web application developed over a 4 week period. 
                   Stack included <strong>PostgreSQL</strong>, <strong>Python</strong>, <strong>Flask</strong>, <strong>Javascript</strong>, and <strong>React.js</strong>.
