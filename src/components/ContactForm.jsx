@@ -10,8 +10,8 @@ const [state, handleSubmit] = useForm("xoqrbvgv");
   }
 
   return (
-    <div className='w-full bg-gradient-to-br from-violet-600 to-gray-400 font-outfit pb-20'>
-      <div className='h-screen pt-20  rounded-xl'>
+    <div className='w-screen h-full bg-gradient-to-br from-violet-600 to-gray-400 font-outfit pb-20'>
+      <div className='pt-20 rounded-xl'>
           <div className=' grid rounded-xl  text-center place-items-center text-white'>
             <p className='text-4xl md:text-6xl font-bold '>Lets get in contact!</p>
             <p className=' mt-2 px-5 py-2 text-3xl md:text-4xl'>Have something you want to tell me? Send me an email below!</p>

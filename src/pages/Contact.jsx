@@ -6,8 +6,10 @@ export default function Contact() {
   
   return (
     <>
+    <div className='grid grid-cols-1 h-screen'>
       <ContactForm/>
       <Footer/>
+    </div>
     </>
   )
 }

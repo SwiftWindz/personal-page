@@ -6,7 +6,7 @@ export default function Resume() {
 
   return (
     <>
-      <div className='grid grid-cols-1 '>
+      <div className='grid grid-cols-1 h-screen '>
         <ResumeComp/>
         <Footer/>
       </div>

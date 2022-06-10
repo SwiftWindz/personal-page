@@ -1,7 +1,6 @@
 import React from 'react'
 import {
     FaGithub,
-    FaInstagram,
     FaTwitter,
     FaLinkedin,
 } from 'react-icons/fa'
@@ -12,7 +11,7 @@ import{
 
 export default function Footer() {
   return (
-    <div className='w-full h-full max-h-[100px] bg-zinc-700 py-7 px-2 font-outfit'>
+    <div className='w-screen h-full bg-zinc-700 py-4 pb-8 px-2 font-outfit'>
         <div className=' border-t-2 border-white flex flex-col max-w-[1240px] px-2 mx-auto justify-between sm:flex-row text-center text-white'>
         <p className='font-bold'>© 2022 Phil Ganem </p>
             <div>

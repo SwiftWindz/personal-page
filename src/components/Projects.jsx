@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div className='h-screen w-screen bg-gradient-to-br from-violet-600 to-gray-400'>
-    <div className=' pt-12 font-outfit pb-24 text-black'>
+    <div className='w-screen h-full bg-gradient-to-br from-violet-600 to-gray-400 pb-20'>
+    <div className='pt-12 font-outfit pb-24 text-black'>
         <div className='text-white text-center py-10 px-5 md:px-24'>
           <h1 className='text-6xl md:text-7xl font-bold'>My Projects</h1>
           <p className='text-3xl md:text-4xl pt-4'>Some new, some old, and all of them learning experiences. I present to you a list of both my

@@ -6,10 +6,12 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
+    <div className='grid grid-cols-1 h-screen'>
       <Navbar/>
       <Header/>
       <About/>
       <Footer/>
+    </div>
     </>
   )
 }
