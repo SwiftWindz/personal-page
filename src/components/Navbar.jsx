@@ -25,13 +25,15 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="md:hidden font-outfit">
-                <ul className={!nav ? "hidden" : "absolute bg-white w-screen h-screen px-8 pt-16"}>
-                <h2 className="py-1 font-bold">PG</h2>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/">About</Link></button></li>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/projects">Projects</Link></button></li>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/resume">Resume</Link></button></li>
-                <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li>
+            <div className={!nav ? "hidden" : "absolute bg-white w-screen h-screen"}>
+                <ul className={"px-8 pt-16"}>
+                    <h2 className="py-1 font-bold">PG</h2>
+                    <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/">About</Link></button></li>
+                    <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/projects">Projects</Link></button></li>
+                    <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/resume">Resume</Link></button></li>
+                    <li className="hover:text-indigo-600 border-b-2 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li>
                 </ul>
+            </div>
             </div>
         </div>
     )
