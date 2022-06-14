@@ -14,7 +14,7 @@ export default function Projects() {
                 <p className='font-bold text-indigo-600 text-center underline text-4xl lg:text-6xl'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
-                    Multi-User Dungeon, or MUD, is a 2D rouge-like game. Users could create and use accounts to save their progress. The game itself had two mode, endless and premade mode. In endless, players 
+                    Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two mode, endless and premade mode. In endless, players 
                     would navagate an endless procedurally generated dungeon in search of loot to increase their profile score. They could quit and return at anytime to the same map. In premade mode, players could choose from a list of premade dungeons with
                     with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles.  
                 </p>
