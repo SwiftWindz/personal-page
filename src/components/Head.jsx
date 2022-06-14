@@ -10,9 +10,8 @@ export default function Header() {
         <p className='text-3xl md:text-4xl  text-white text-center md:text-left font-outfit'>3rd-Year Software Engineering student at the Rochester Institute of Technology.</p>
       </div>
       <div className='grid max-w-[500px] place-items-center'>
-        {/* Fix picture w divs not the same size */}
         <div className='fill-blue-500 '>
-        <img className=' w-[300px] h-[350px] md:w-[325px] md:h-[375px] ' src={face} alt="/" />
+        <img className='hidden md:flex md:w-[325px] md:h-[375px] ' src={face} alt="/" />
           </div>
       </div>
     </div>
