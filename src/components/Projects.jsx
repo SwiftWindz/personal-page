@@ -26,10 +26,10 @@ export default function Projects() {
                  </ul> */}
                 {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>Java</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>JavaFX</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>JUnit</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>PostgreSQL</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Java</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>JavaFX</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>JUnit</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>PostgreSQL</h2>
                 </div>
               </div>
             </div>
@@ -50,9 +50,9 @@ export default function Projects() {
                 </ul> */}
                 {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 px-8'>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>Java</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>Java Spark</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>JUnit</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Java</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Java Spark</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>JUnit</h2>
                 </div>
               </div>
             </div>
@@ -76,10 +76,10 @@ export default function Projects() {
                </ul> */}
                 {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>Python</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>Flask</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>React.js</h2>
-                 <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm'>PostgreSQL</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Python</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Flask</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>React.js</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>PostgreSQL</h2>
                 </div>
               </div>
             </div>
