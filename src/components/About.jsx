@@ -10,7 +10,7 @@ export default function About() {
                 I am currently working my way through the Rochester Institute of Technology's five year software engineering program.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-6 md:px-2 text-center '>
-                <div className='border py-8 rounded-xl shadow-2xl bg-white text-black'>
+                <div className='border py-8 rounded-2xl shadow-2xl bg-white text-black'>
                     <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Education</p>
                     <div className='px-2'> 
                         <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
@@ -45,7 +45,7 @@ export default function About() {
                 Software Developement and Problem Solving II (<strong>SWEN124</strong>), 
                 Software Engineering Freshman Seminar (<strong>SWEN101</strong>).</p> */}
                 </div>
-                <div className='border py-8 rounded-xl shadow-2xl bg-white'>
+                <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
                     <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Experience</p>
                     <div className='px-2 text-black'> 
                         <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
@@ -68,7 +68,7 @@ export default function About() {
                     </div>     
                     
                 </div>
-                <div className='border py-8 rounded-xl shadow-2xl bg-white justify-center'>
+                <div className='border py-8 rounded-2xl shadow-2xl bg-white justify-center'>
                     <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Expertise</p>
                     <p className='text-black pt-2 '>Being a software engineer also means being a full time student. Heres what I've learned...</p>
                     <div className='px-2 text-black'> 

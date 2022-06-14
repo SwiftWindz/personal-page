@@ -10,7 +10,7 @@ export default function Projects() {
           personal and school projects as well as key information about all of them. Enjoy!</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-8'>
-            <div className='border py-8 rounded-xl shadow-2xl bg-white un'>
+            <div className='border py-8 rounded-2xl shadow-2xl bg-white un'>
                 <p className='font-bold text-indigo-600 text-center underline text-4xl lg:text-6xl'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
@@ -33,7 +33,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className='border py-8 rounded-xl shadow-2xl bg-white'>
+            <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
                 <p className='text-4xl lg:text-6xl font-bold text-indigo-600 text-center underline'>Webcheckers</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
@@ -56,7 +56,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className='border py-8 rounded-xl shadow-2xl bg-white'>
+            <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
                 <p className='text-4xl lg:text-6xl font-bold text-indigo-600 text-center underline'>Nutrikit</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>

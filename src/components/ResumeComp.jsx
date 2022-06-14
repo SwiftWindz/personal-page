@@ -7,7 +7,7 @@ export default function ResumeComp() {
     <div className='w-screen h-full bg-gradient-to-tr from-zinc-800 to-indigo-600 font-outfit pb-20'>
         <div className=' grid py-10 font-outfit text-center'>
             <div className='grid place-items-center pb-10'>
-            <div className='border m-4 p-3 md:m-0 md:p-10 rounded-xl shadow-2xl bg-white grid place-items-center pb-10'>
+            <div className='border m-4 p-3 md:m-0 md:p-10 rounded-2xl shadow-2xl bg-white grid place-items-center pb-10'>
                 <div className='pb-10'>
                 <p className='text-6xl font-bold text-indigo-600'>My Resume. Grab One!</p>
                 </div>
