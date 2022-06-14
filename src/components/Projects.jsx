@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div className='w-screen h-full bg-gradient-to-br from-violet-600 to-gray-400 pb-20'>
+    <div className='w-screen h-full bg-gradient-to-tr from-zinc-800 to-indigo-600 pb-20'>
     <div className='pt-12 font-outfit pb-24 text-black'>
         <div className='text-white text-center py-10 px-5 md:px-24'>
           <h1 className='text-6xl md:text-7xl font-bold'>My Projects</h1>
@@ -11,7 +11,7 @@ export default function Projects() {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-8'>
             <div className='border py-8 rounded-xl shadow-2xl bg-white un'>
-                <p className='font-bold text-purple-500 text-center underline text-4xl lg:text-6xl'>Multi-User Dungeon</p>
+                <p className='font-bold text-indigo-600 text-center underline text-4xl lg:text-6xl'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
                     Multi-User Dungeon, or MUD, is a 2D rouge-like game. Users could create and use accounts to save their progress. The game itself had two mode, endless and premade mode. In endless, players 
@@ -34,7 +34,7 @@ export default function Projects() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-4xl lg:text-6xl font-bold text-purple-500 text-center underline'>Webcheckers</p>
+                <p className='text-4xl lg:text-6xl font-bold text-indigo-600 text-center underline'>Webcheckers</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
                     Webcheckers is an online multiplayer game of checkers. Players may make an account and select from other online players to play against.
@@ -57,7 +57,7 @@ export default function Projects() {
               </div>
             </div>
             <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-4xl lg:text-6xl font-bold text-purple-500 text-center underline'>Nutrikit</p>
+                <p className='text-4xl lg:text-6xl font-bold text-indigo-600 text-center underline'>Nutrikit</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
                     Nutrikit is a full-stack web application that allows users to track their caloric intake and create meal plans. Users have the ability to create caloric and nutritional goals that they wished to meet or pick from preset ones provided to them.
@@ -84,7 +84,7 @@ export default function Projects() {
               </div>
             </div>
             {/* <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-purple-500 text-center underline'>Lorem.</p>
+                <p className='text-6xl font-bold text-indigo-600 text-center underline'>Lorem.</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
