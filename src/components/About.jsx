@@ -6,7 +6,7 @@ export default function About() {
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center px-8 md:px-2'>
                 <h2 className='text-4xl md:text-5xl font-bold'> <a className='font-bold hover:text-violet-200'  href="https://www.youtube.com/watch?v=rEq1Z0bjdwc&ab_channel=ShortClips" target="_blank" rel="noreferrer noopener">Hello there!</a>  Welcome to my website.</h2>
-                <p className='text-2xl md:text-3xl text-white py-6 pb-10'>My name is Phil Ganem and I'm a student software engineer, activist, and coffee snob based out of Rochester, New York. I'm currently 
+                <p className='text-2xl md:text-3xl text-white py-6 pb-10'>My name is Phil Ganem and I'm a student software engineer, activist, and coffee snob based out of Rochester, New York. 
                 I am currently working my way through the Rochester Institute of Technology's five year software engineering program.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-6 md:px-2 text-center '>
