@@ -11,8 +11,8 @@ export default function Header() {
       </div>
       <div className='grid max-w-[500px] place-items-center'>
         <div className='fill-blue-500 '>
-        <img className='hidden md:flex md:w-[325px] md:h-[375px] ' src={face} alt="/" />
-          </div>
+          <img className='hidden md:flex md:w-[325px] md:h-[375px] ' src={face} alt="/" />
+        </div>
       </div>
     </div>
   </div>

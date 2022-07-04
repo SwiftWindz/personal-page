@@ -5,13 +5,13 @@ export default function Projects() {
     <div className='w-screen h-full bg-gradient-to-tr from-zinc-800 to-indigo-600 pb-20'>
     <div className='pt-12 font-outfit pb-24 text-black'>
         <div className='text-white text-center py-10 px-5 md:px-24'>
-          <h1 className='text-6xl md:text-7xl font-bold'>My Projects</h1>
+          <h1 className='text-5xl md:text-7xl font-bold'>My Projects</h1>
           <p className='text-3xl md:text-4xl pt-4'>Some new, some old, and all of them learning experiences. I present to you a list of both my
           personal and school projects as well as key information about all of them. Enjoy!</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-8'>
             <div className='border py-8 rounded-2xl shadow-2xl bg-white un'>
-                <p className='font-bold text-indigo-600 text-center underline text-4xl lg:text-6xl'>Multi-User Dungeon</p>
+                <p className='font-bold text-indigo-600 text-center underline text-4xl lg:text-5xl'>Multi-User Dungeon</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
                     Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two mode, endless and premade mode. In endless, players 
@@ -26,15 +26,15 @@ export default function Projects() {
                  </ul> */}
                 {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Java</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>JavaFX</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>JUnit</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>PostgreSQL</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JavaFX</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                 </div>
               </div>
             </div>
             <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
-                <p className='text-4xl lg:text-6xl font-bold text-indigo-600 text-center underline'>Webcheckers</p>
+                <p className='text-4xl lg:text-5xl font-bold text-indigo-600 text-center underline'>Webcheckers</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
                     Webcheckers is an online multiplayer game of checkers. Players may make an account and select from other online players to play against.
@@ -50,14 +50,14 @@ export default function Projects() {
                 </ul> */}
                 {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Java</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Java Spark</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>JUnit</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java Spark</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
                 </div>
               </div>
             </div>
             <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
-                <p className='text-4xl lg:text-6xl font-bold text-indigo-600 text-center underline'>Nutrikit</p>
+                <p className='text-4xl lg:text-5xl font-bold text-indigo-600 text-center underline'>Nutrikit</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-4 pb-10 px-5 text-center'>
                     Nutrikit is a full-stack web application that allows users to track their caloric intake and create meal plans. Users have the ability to create caloric and nutritional goals that they wished to meet or pick from preset ones provided to them.
@@ -76,21 +76,53 @@ export default function Projects() {
                </ul> */}
                 {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Python</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>Flask</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>React.js</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm'>PostgreSQL</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Python</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Flask</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                 </div>
               </div>
             </div>
             {/* <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-6xl font-bold text-indigo-600 text-center underline'>Lorem.</p>
+                <p className='text-5xl font-bold text-indigo-600 text-center underline'>Lorem.</p>
               <div className='grid place-items-center'>
                 <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
                 <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
               </div>
             </div>
          */}
+         {/* <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
+                <p className='text-3xl lg:text-4xl font-bold text-indigo-600 text-center underline'>Philsheavyequipment.com</p>
+              <div className='grid place-items-center'>
+                <p className='text-black mt-4 pb-10 px-5 text-center'>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa odio asperiores error fuga repellat voluptates harum provident incidunt nisi
+                    omnis ex est nesciunt labore, iste nulla temporibus nemo delectus facilis! Reprehenderit quo quaerat libero expedita voluptatum quas minus non
+                    omnis. Quas molestiae delectus ea adipisci officia laborum fugit, debitis tempora ullam voluptatum sapiente sunt quia quasi minus. At vel ea nihil
+                    nemo modi! Ipsum, officia laudantium. Iste quod repellendus voluptas nobis facere illum. Molestias repellendus dolorem autem perferendis, nostrum
+                    rerum sapiente amet esse eius? Quae ipsum id itaque tenetur ullam harum sunt, ad accusamus eos rem. Natus cum numquam ut?
+                </p>
+                <div className='grid grid-cols-2 lg:grid-cols-2 gap-5 px-8'>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
+                </div>
+              </div>
+            </div>
+            <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
+                <p className='text-3xl lg:text-4xl font-bold text-indigo-600 text-center underline'>ZoeFelfle.com</p>
+              <div className='grid place-items-center'>
+                <p className='text-black mt-4 pb-10 px-5 text-center'>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa odio asperiores error fuga repellat voluptates harum provident incidunt nisi
+                    omnis ex est nesciunt labore, iste nulla temporibus nemo delectus facilis! Reprehenderit quo quaerat libero expedita voluptatum quas minus non
+                    omnis. Quas molestiae delectus ea adipisci officia laborum fugit, debitis tempora ullam voluptatum sapiente sunt quia quasi minus. At vel ea nihil
+                    nemo modi! Ipsum, officia laudantium. Iste quod repellendus voluptas nobis facere illum. Molestias repellendus dolorem autem perferendis, nostrum
+                    rerum sapiente amet esse eius? Quae ipsum id itaque tenetur ullam harum sunt, ad accusamus eos rem. Natus cum numquam ut?
+                </p>
+                <div className='grid grid-cols-2 lg:grid-cols-2 gap-5 px-8'>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
+                </div>
+              </div>
+            </div> */}
         </div>
      </div>
     </div>
