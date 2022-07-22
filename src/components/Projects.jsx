@@ -11,7 +11,7 @@ export default function Projects() {
           <p className='text-3xl md:text-4xl pt-4'>Some new, some old, and all of them learning experiences. I present to you a list of both my
           personal and school projects as well as key information about all of them. Enjoy!</p>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-3 px-8 place-items-center'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 px-8 gap-6 place-items-center'>
             
             <div class=" pt-8">
               <div class="rounded-lg shadow-lg bg-white max-w-xl">
