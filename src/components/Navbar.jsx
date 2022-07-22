@@ -18,9 +18,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex md:hidden mt-[-75px]" onClick={handleClick}>
-                    {!nav ? <button><MenuIcon className="w-10 pt-5 animate-pulse text-zinc-400"/></button> : 
+                    {!nav ? 
+                    <div className="pt-5">
+                        <button><MenuIcon className="w-10 animate-pulse text-zinc-400"/></button>
+                    </div> 
+                      : 
                     <div className="w-screen sm:h-[50px] md:h-[80px] z-10 fixed drop-shadow-lg">
-                        <button><XIcon className="text-zinc-700 pt-5 w-10 animate-pulse py-5"/></button>
+                        <button><XIcon className="text-zinc-400 pt-5 w-10 animate-pulse py-5"/></button>
                     </div>}
                 </div>
             </div>
@@ -28,10 +32,10 @@ const Navbar = () => {
             <div className={!nav ? "hidden" : "absolute bg-zinc-800 w-screen h-screen text-white"}>
                 <ul className={"px-8 pt-16"}>
                     <h2 className="py-1 font-bold">PG</h2>
-                    <li className="hover:text-indigo-600 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/">About</Link></button></li>
-                    <li className="hover:text-indigo-600 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/projects">Projects</Link></button></li>
-                    <li className="hover:text-indigo-600 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/resume">Resume</Link></button></li>
-                    <li className="hover:text-indigo-600 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li>
+                    <li className="hover:text-indigo-200 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/">About</Link></button></li>
+                    <li className="hover:text-indigo-200 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/projects">Projects</Link></button></li>
+                    <li className="hover:text-indigo-200 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/resume">Resume</Link></button></li>
+                    <li className="hover:text-indigo-200 border-zinc-300 w-full text-2xl"><button onClick={handleClick}><Link to="/contact">Contact</Link></button></li>
                 </ul>
             </div>
             </div>

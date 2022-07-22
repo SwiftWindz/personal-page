@@ -1,7 +1,6 @@
 import React from 'react'
 import {
     FaGithub,
-    FaTwitter,
     FaLinkedin,
     FaCode
 } from 'react-icons/fa'
@@ -20,7 +19,6 @@ export default function Footer() {
                 <a className="hover:text-indigo-200" href="https://github.com/SwiftWindz"><FaGithub /></a>
                 <a className="hover:text-indigo-200" href="https://github.com/SwiftWindz/personal-page"><FaCode /></a>
                 <a className="hover:text-indigo-200" href="https://www.linkedin.com/in/phil-ganem/"><FaLinkedin /></a>
-                <a className="hover:text-indigo-200" href="https://twitter.com/PhilBreaksCode"><FaTwitter /></a>
                 <a className="hover:text-indigo-200" aria-disabled="false" target="_self" href="mailto:philthesoftdev@gmail.com?subject=Hello there!"><MdEmail /></a>
             </div>
             </div>

@@ -1,128 +1,85 @@
-import React from 'react'
+import React from 'react' 
+import MUD from '../assets/mud.mp4'
+import Checkers from '../assets/checkers.mp4'
 
 export default function Projects() {
   return (
-    <div className='w-screen h-full bg-gradient-to-tr from-zinc-800 to-indigo-600 pb-20'>
-    <div className='pt-12 font-outfit pb-24 text-black'>
+    <div className='w-screen font-outfit h-full bg-gradient-to-tr from-zinc-800 to-indigo-600 pb-20'>
+    <div className='pt-12 pb-24 text-black'>
         <div className='text-white text-center py-10 px-5 md:px-24'>
           <h1 className='text-5xl md:text-7xl font-bold'>My Projects</h1>
           <p className='text-3xl md:text-4xl pt-4'>Some new, some old, and all of them learning experiences. I present to you a list of both my
           personal and school projects as well as key information about all of them. Enjoy!</p>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-8'>
-            <div className='border py-8 rounded-2xl shadow-2xl bg-white un'>
-                <p className='font-bold text-indigo-600 text-center underline text-4xl lg:text-5xl'>Multi-User Dungeon</p>
-              <div className='grid place-items-center'>
-                <p className='text-black mt-4 pb-10 px-5 text-center'>
-                    Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two mode, endless and premade mode. In endless, players 
-                    would navagate an endless procedurally generated dungeon in search of loot to increase their profile score. They could quit and return at anytime to the same map. In premade mode, players could choose from a list of premade dungeons with
-                    with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles.  
-                </p>
-                {/* <ul className='list-disc pt-0 p-14 list-inside'>
-                    <li>Worked on a team of 5 developers to create a rogue-like video game using <strong>Java</strong> over a week period.</li>
-                    <li>Used Java to implement <strong>design patterns</strong> layed out within <strong><i>Design Patterns Elements of Reusable Object-Oriented Software</i></strong> as well as <strong>MVC</strong>.</li>
-                    <li>Used <strong>JUnit</strong> to create extensive unit tests for the game</li>
-                    <li>Used a <strong>PostgreSQL database</strong> to store player data.</li>
-                 </ul> */}
-                {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
-                <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JavaFX</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
+        <div className='grid grid-cols-1 lg:grid-cols-3 px-8 place-items-center'>
+            
+            <div class=" pt-8">
+              <div class="rounded-lg shadow-lg bg-white max-w-xl">
+                <video className='rounded-t-lg' autoPlay={false} src={MUD} controls></video> 
+                <div class="p-6">
+                  <h5 class="text-indigo-600  text-xl font-bold mb-2 text-center ">Multi-User Dungeon</h5>
+                  <p class="text-gray-700 text-base text-center">
+                  Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two modes, endless and premade mode. In endless, players would navigate an endless procedural generated dungeon in search of loot to increase their profile score. They could quit and return at any time to the same map. In premade mode, players could choose from a list of premade dungeons with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles.
+                  </p>
+                  <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 p-6'>
+                  <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JavaFX</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
+                  </div>
+                  <div className=' text-center grid'>
+                    <button className='bg-indigo-500 px-2 rounded-lg text-center shadow-sm text-lg text-white'>View Code</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
-                <p className='text-4xl lg:text-5xl font-bold text-indigo-600 text-center underline'>Webcheckers</p>
-              <div className='grid place-items-center'>
-                <p className='text-black mt-4 pb-10 px-5 text-center'>
-                    Webcheckers is an online multiplayer game of checkers. Players may make an account and select from other online players to play against.
-                    The game is operated with the same rules as American Checkers. The game also supports hint functionality, which allows the player to see the best move againt their opponent
-                    and view the rules at any time.
-                </p>
-                {/* <ul className='list-disc pt-0 p-14 list-inside'>
-                  <li>Worked with a team of five to create a web application for player-versus-player checkers in <strong>Java</strong> with
-                  the <strong>Java Spark</strong> framework.</li>
-                  <li>Followed <strong>Agile development processes</strong> resulting in economical development of the product.</li>
-                  <li>Gave regular in-class demos to colleagues</li>
-                  <li>Utilized object-oriented design principles to create to create clear, modular, maintainable code</li>
-                </ul> */}
-                {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
-                <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java Spark</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
-                </div>
-              </div>
-            </div>
-            <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
-                <p className='text-4xl lg:text-5xl font-bold text-indigo-600 text-center underline'>Nutrikit</p>
-              <div className='grid place-items-center'>
-                <p className='text-black mt-4 pb-10 px-5 text-center'>
+
+
+            <div class=" pt-8">
+              <div class="rounded-lg shadow-lg bg-white max-w-xl">
+                <img class="rounded-t-lg" src="http://placehold.jp/6366f1/ffffff/780x520.png?text=Placeholder" alt=""/>
+                <div class="p-6">
+                  <h5 class="text-indigo-600  text-xl font-bold mb-2 text-center ">Nutrikit</h5>
+                  <p class="text-gray-700 text-base text-center">
                     Nutrikit is a full-stack web application that allows users to track their caloric intake and create meal plans. Users have the ability to create caloric and nutritional goals that they wished to meet or pick from preset ones provided to them.
                     From here, users could select food to add to their meal plan and view the nutritional values of said food items provided from a database. The application would alert them if the selected foods did not meet their plan.
                     Users could also submit their own foods to the database for future use in their meal plans
-                </p>
-                {/* <ul className='list-disc pt-0 p-14 list-inside'>
-                  <li><strong>Full-stack</strong> web application developed over a 4 week period. 
-                  Stack included <strong>PostgreSQL</strong>, <strong>Python</strong>, <strong>Flask</strong>, <strong>Javascript</strong>, and <strong>React.js</strong>.
-                  </li>
-                  <li>Used <strong>Pytest</strong> to create robust unit tests for the application</li>
-                  <li>It is used to track and support a user's nutritional goals using the nutritional values of food
-                      within a database. Additionally, users had the option of adding, removing, or modifying items
-                      within the database and visualizing their goals with an interactive progress bar and nutrition label</li>
-                  <li>Conducted weekly <strong>peer-to-peer code reviews</strong> over the course of the project</li>
-               </ul> */}
-                {/* <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video> */}
-                <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Python</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Flask</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
+                  </p>
+                  <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 p-6'>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Python</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Flask</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
+                  </div>
+                  <div className=' text-center grid'>
+                    <button className='bg-indigo-500 px-2 rounded-lg text-center shadow-sm text-lg text-white'>View Code</button>
+                  </div>
                 </div>
               </div>
             </div>
-            {/* <div className='border py-8 rounded-xl shadow-2xl bg-white'>
-                <p className='text-5xl font-bold text-indigo-600 text-center underline'>Lorem.</p>
-              <div className='grid place-items-center'>
-                <p className='text-black mt-2 pb-10 px-5 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus reprehenderit illum nam voluptates dignissimos accusamus. Consequuntur iste ab magnam.</p>
-                <video className='rounded-xl max-w-[250px] sm:max-w-[325px] md:max-w-[350px] lg:max-w-[550px] xl:max-w-[650px]' autoPlay={false} src={MUD} controls></video>
-              </div>
-            </div>
-         */}
-         {/* <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
-                <p className='text-3xl lg:text-4xl font-bold text-indigo-600 text-center underline'>Philsheavyequipment.com</p>
-              <div className='grid place-items-center'>
-                <p className='text-black mt-4 pb-10 px-5 text-center'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa odio asperiores error fuga repellat voluptates harum provident incidunt nisi
-                    omnis ex est nesciunt labore, iste nulla temporibus nemo delectus facilis! Reprehenderit quo quaerat libero expedita voluptatum quas minus non
-                    omnis. Quas molestiae delectus ea adipisci officia laborum fugit, debitis tempora ullam voluptatum sapiente sunt quia quasi minus. At vel ea nihil
-                    nemo modi! Ipsum, officia laudantium. Iste quod repellendus voluptas nobis facere illum. Molestias repellendus dolorem autem perferendis, nostrum
-                    rerum sapiente amet esse eius? Quae ipsum id itaque tenetur ullam harum sunt, ad accusamus eos rem. Natus cum numquam ut?
-                </p>
-                <div className='grid grid-cols-2 lg:grid-cols-2 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
+
+            <div class=" pt-8">
+              <div class="rounded-lg shadow-lg bg-white max-w-xl">
+                <video className='rounded-t-lg' autoPlay={false} src={Checkers} controls></video> 
+                <div class="p-6">
+                  <h5 class="text-indigo-600  text-xl font-bold mb-2 text-center">Webcheckers</h5>
+                  <p class="text-gray-700 text-base text-center">
+                    Webcheckers is an online multiplayer game of checkers. Players may make an account and select from other online players to play against.
+                    The game is operated with the same rules as American Checkers. The game also supports hint functionality, which allows the player to see the best move against their opponent
+                    and view the rules at any time.
+                  </p>
+                  <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 p-6 justify-center  '>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java Spark</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
+                  </div>
+                  <div className=' text-center grid'>
+                    <button className='bg-indigo-500 px-2 rounded-lg text-center shadow-sm text-lg text-white'>View Code</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
-                <p className='text-3xl lg:text-4xl font-bold text-indigo-600 text-center underline'>ZoeFelfle.com</p>
-              <div className='grid place-items-center'>
-                <p className='text-black mt-4 pb-10 px-5 text-center'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa odio asperiores error fuga repellat voluptates harum provident incidunt nisi
-                    omnis ex est nesciunt labore, iste nulla temporibus nemo delectus facilis! Reprehenderit quo quaerat libero expedita voluptatum quas minus non
-                    omnis. Quas molestiae delectus ea adipisci officia laborum fugit, debitis tempora ullam voluptatum sapiente sunt quia quasi minus. At vel ea nihil
-                    nemo modi! Ipsum, officia laudantium. Iste quod repellendus voluptas nobis facere illum. Molestias repellendus dolorem autem perferendis, nostrum
-                    rerum sapiente amet esse eius? Quae ipsum id itaque tenetur ullam harum sunt, ad accusamus eos rem. Natus cum numquam ut?
-                </p>
-                <div className='grid grid-cols-2 lg:grid-cols-2 gap-5 px-8'>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
-                 <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
-                </div>
-              </div>
-            </div> */}
+
         </div>
      </div>
     </div>

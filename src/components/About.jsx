@@ -60,7 +60,7 @@ export default function About() {
                                 Engineering and Problem Solving 1 & 2 course sequence.
                                 </li>
                                 <li>
-                                Work one-on-one with students during and after classtime to guide students to an understanding of course content.
+                                Work one-on-one with students during and after class time to guide students to an understanding of course content.
                                 </li>
                             </ul>
                          
