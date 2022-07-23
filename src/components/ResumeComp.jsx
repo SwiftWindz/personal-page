@@ -12,14 +12,7 @@ export default function ResumeComp() {
                 <p className='text-6xl font-bold text-indigo-600'>My Resume. Grab One!</p>
                 </div>
                 <div className=''>
-                <embed className='w-[315px] h-[425px] sm:w-[400px] sm:h-[550px] md:w-[700px] md:h-[920px]' onError={
-                  <>
-                    <div className='grid grid-cols-1 place-items-center'>
-                      <p>Could not load PDF...</p>
-                      <a href={pdf}><button className='font-bold hover:bg-indigo-200 text-indigo-600 pb-2 pt-2 bg-white rounded-xl w-[100px] text-center focus:outline-none focus:ring focus:ring-violet-300 '>Try here!</button></a>
-                    </div>
-                  </>
-                } src={pdf} type=""/>
+                <embed className='w-[315px] h-[425px] sm:w-[400px] sm:h-[550px] md:w-[700px] md:h-[920px]' src={pdf} type=""/>
                 </div>
             </div>
             </div>

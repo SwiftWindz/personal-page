@@ -13,12 +13,12 @@ export default function Projects() {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 px-8 gap-6 place-items-center'>
             
-            <div class=" pt-8">
-              <div class="rounded-lg shadow-lg bg-white max-w-xl">
+            <div className=" pt-8">
+              <div className="rounded-lg shadow-lg bg-white max-w-xl">
                 <video className='rounded-t-lg' autoPlay={false} src={MUD} controls></video> 
-                <div class="p-6">
-                  <h5 class="text-indigo-600  text-xl font-bold mb-2 text-center ">Multi-User Dungeon</h5>
-                  <p class="text-gray-700 text-base text-center">
+                <div className="p-6">
+                  <h5 className="text-indigo-600  text-xl font-bold mb-2 text-center ">Multi-User Dungeon</h5>
+                  <p className="text-gray-700 text-base text-center">
                   Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two modes, endless and premade mode. In endless, players would navigate an endless procedural generated dungeon in search of loot to increase their profile score. They could quit and return at any time to the same map. In premade mode, players could choose from a list of premade dungeons with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles.
                   </p>
                   <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 p-6'>
@@ -35,12 +35,12 @@ export default function Projects() {
             </div>
 
 
-            <div class=" pt-8">
-              <div class="rounded-lg shadow-lg bg-white max-w-xl">
-                <img class="rounded-t-lg" src="http://placehold.jp/6366f1/ffffff/780x520.png?text=Placeholder" alt=""/>
-                <div class="p-6">
-                  <h5 class="text-indigo-600  text-xl font-bold mb-2 text-center ">Nutrikit</h5>
-                  <p class="text-gray-700 text-base text-center">
+            <div className=" pt-8">
+              <div className="rounded-lg shadow-lg bg-white max-w-xl">
+                <img className="rounded-t-lg" src="http://placehold.jp/6366f1/ffffff/780x520.png?text=Placeholder" alt=""/>
+                <div className="p-6">
+                  <h5 className="text-indigo-600  text-xl font-bold mb-2 text-center ">Nutrikit</h5>
+                  <p className="text-gray-700 text-base text-center">
                     Nutrikit is a full-stack web application that allows users to track their caloric intake and create meal plans. Users have the ability to create caloric and nutritional goals that they wished to meet or pick from preset ones provided to them.
                     From here, users could select food to add to their meal plan and view the nutritional values of said food items provided from a database. The application would alert them if the selected foods did not meet their plan.
                     Users could also submit their own foods to the database for future use in their meal plans
@@ -58,12 +58,12 @@ export default function Projects() {
               </div>
             </div>
 
-            <div class=" pt-8">
-              <div class="rounded-lg shadow-lg bg-white max-w-xl">
+            <div className=" pt-8">
+              <div className="rounded-lg shadow-lg bg-white max-w-xl">
                 <video className='rounded-t-lg' autoPlay={false} src={Checkers} controls></video> 
-                <div class="p-6">
-                  <h5 class="text-indigo-600  text-xl font-bold mb-2 text-center">Webcheckers</h5>
-                  <p class="text-gray-700 text-base text-center">
+                <div className="p-6">
+                  <h5 className="text-indigo-600  text-xl font-bold mb-2 text-center">Webcheckers</h5>
+                  <p className="text-gray-700 text-base text-center">
                     Webcheckers is an online multiplayer game of checkers. Players may make an account and select from other online players to play against.
                     The game is operated with the same rules as American Checkers. The game also supports hint functionality, which allows the player to see the best move against their opponent
                     and view the rules at any time.
