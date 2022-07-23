@@ -1,17 +1,24 @@
 import React from 'react'
+import {
+    FaGraduationCap,
+    FaLaptopCode,
+    FaBook
+} from 'react-icons/fa'
 
 export default function About() {
   return (
     <div name='about' className='w-screen h-full  py-20 font-outfit bg-zinc-800 text-white'>
-        <div className='max-w-[1240px] mx-auto'>
-            <div className='text-center px-8 md:px-2'>
+        <div className='max-w-[1500px] mx-auto'>
+            <div className='text-center px-8 md:px-2 '>
                 <h2 className='text-4xl md:text-5xl font-bold'> <a className='font-bold hover:text-violet-200'  href="https://www.youtube.com/watch?v=rEq1Z0bjdwc&ab_channel=ShortClips" target="_blank" rel="noreferrer noopener">Hello there!</a>  Welcome to my website.</h2>
                 <p className='text-2xl md:text-3xl text-white py-6 pb-10'>My name is Phil Ganem and I'm a student software engineer, activist, and coffee snob based out of Rochester, New York. 
                 I am currently working my way through the Rochester Institute of Technology's five year software engineering program.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-6 md:px-2 text-center '>
-                <div className='border py-8 rounded-2xl shadow-2xl bg-white text-black'>
+                <div className=' py-8 text-white '>
+                    <FaGraduationCap className='inline-flex text-4xl md:text-5xl' />
                     <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Education</p>
+                    
                     <div className='px-2'> 
                         <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
                             <h2 className='font-bold'>Rochester Institute of Technology</h2>
@@ -45,9 +52,10 @@ export default function About() {
                 Software Developement and Problem Solving II (<strong>SWEN124</strong>), 
                 Software Engineering Freshman Seminar (<strong>SWEN101</strong>).</p> */}
                 </div>
-                <div className='border py-8 rounded-2xl shadow-2xl bg-white'>
+                <div className=' py-8'>
+                    <FaLaptopCode className='text-4xl md:text-5xl inline-flex' />
                     <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Experience</p>
-                    <div className='px-2 text-black'> 
+                    <div className='px-2 '> 
                         <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
                             <h2 className='font-bold'>Rochester Institute of Technology</h2>
                             <h3>Software Engineering Course Assistant</h3>
@@ -68,19 +76,23 @@ export default function About() {
                     </div>     
                     
                 </div>
-                <div className='border py-8 rounded-2xl shadow-2xl bg-white justify-center'>
+                <div className='py-8  justify-center'>
+                    <FaBook className='text-4xl md:text-5xl inline-flex' />
                     <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Expertise</p>
-                    <p className='text-black pt-2 '>Being a software engineer also means being a full time student. Heres what I've learned...</p>
-                    <div className='px-2 text-black'> 
-                        <div className=' pb-2 border-b-2 border-b-stone-700'>
-                            <h2 className='font-bold'>Technology that I am proficient with</h2>
+                    <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
+                        <h2 className='font-bold'>Technologies and Skills</h2>
+                        <p>Being a software engineer also means being a full time student. Heres what I've learned...</p>
+                    </div>
+                    <div className='px-2'> 
+                        <div className='pt-2'>
+                            <h2 className='font-bold'>Technology that I am proficient with...</h2>
                         </div>
                         <div className='pt-2'>
                             <h1>Java, Python, C, Javascript, REACT.js, HTML, CSS, Flask, SQL, and TailwindCSS</h1>
                         </div>
 
-                        <div className='pt-8 pb-2 border-b-2 border-b-stone-700'>
-                            <h2 className='font-bold'>Technology that I am learning</h2>
+                        <div className='mt-2 pt-2 border-t-2 border-t-stone-700'>
+                            <h2 className='font-bold'>Technology that I am learning...</h2>
                         </div>
                         <div className='pt-2'>
                             <h1>Rust, Typescript, and MongoDB</h1>
