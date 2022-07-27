@@ -1,6 +1,8 @@
 import React from 'react' 
 import MUD from '../assets/mud.mp4'
 import Checkers from '../assets/checkers.mp4'
+import Cocktail from '../assets/cocktail.png'
+
 
 export default function Projects() {
   return (
@@ -28,8 +30,8 @@ export default function Projects() {
                     <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-indigo-500 px-2 rounded-lg text-center shadow-sm text-lg text-white'>View Code</button>
-                  </div>
+                    <button className='bg-indigo-500 hover:text-indigo-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Dungeon">View Code</a></button>
+                  </div> 
                 </div>
               </div>
             </div>
@@ -52,7 +54,7 @@ export default function Projects() {
                     <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-indigo-500 px-2 rounded-lg text-center shadow-sm text-lg text-white'>View Code</button>
+                    <button className='bg-indigo-500 hover:text-indigo-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/NutritionApp">View Code</a></button>
                   </div>
                 </div>
               </div>
@@ -74,7 +76,30 @@ export default function Projects() {
                     <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-indigo-500 px-2 rounded-lg text-center shadow-sm text-lg text-white'>View Code</button>
+                    <button className='bg-indigo-500 hover:text-indigo-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Online-Checkers">View Code</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className=" pt-8">
+              <div className="rounded-lg shadow-lg bg-white max-w-xl">
+                <img className="rounded-t-lg" src={Cocktail} alt=""/>
+                <div className="p-6">
+                  <h5 className="text-indigo-600  text-xl font-bold mb-2 text-center">Cocktail Cabinet</h5>
+                  <p className="text-gray-700 text-base text-center">
+                    Cocktail Cabinet is a web application where users can find their favorite cocktail recipes
+                    from CocktailDB and be directed to a place where they can obtain the ingredients. Users can also have the application select a random cocktail recipe for them to try.
+                    
+                  </p>
+                  <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 p-6 justify-center  '>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
+                    <h2 className='bg-indigo-200 px-2 rounded-lg text-center shadow-sm text-sm'>Axios</h2>
+                  </div>
+                  <div className=' text-center grid gap-4'>
+                    <button className='bg-indigo-500 hover:text-indigo-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Cocktail-Cabinet">View Code</a></button>
+                    <button className='bg-indigo-500 hover:text-indigo-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://swiftwindz.github.io/Cocktail-Cabinet/">View Website</a></button>
                   </div>
                 </div>
               </div>
