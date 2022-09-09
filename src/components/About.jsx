@@ -17,7 +17,7 @@ export default function About() {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-6 md:px-2 text-center '>
                 <div className=' py-8 text-white '>
                     <FaGraduationCap className='inline-flex text-4xl md:text-5xl' />
-                    <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Education</p>
+                    <p className='text-5xl lg:text-6xl font-bold text-[#8b5cf6]'>Education</p>
                     
                     <div className='px-2'> 
                         <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
@@ -54,7 +54,7 @@ export default function About() {
                 </div>
                 <div className=' py-8'>
                     <FaLaptopCode className='text-4xl md:text-5xl inline-flex' />
-                    <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Experience</p>
+                    <p className='text-5xl lg:text-6xl font-bold text-[#8b5cf6]'>Experience</p>
                     <div className='px-2 '> 
                         <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
                             <h2 className='font-bold'>Rochester Institute of Technology</h2>
@@ -78,7 +78,7 @@ export default function About() {
                 </div>
                 <div className='py-8  justify-center'>
                     <FaBook className='text-4xl md:text-5xl inline-flex' />
-                    <p className='text-5xl lg:text-6xl font-bold text-indigo-600'>Expertise</p>
+                    <p className='text-5xl lg:text-6xl font-bold text-[#8b5cf6]'>Expertise</p>
                     <div className='pt-2 pb-2 border-b-2 border-b-stone-700'>
                         <h2 className='font-bold'>Technologies and Skills</h2>
                         <p>Being a software engineer also means being a full time student. Heres what I've learned...</p>

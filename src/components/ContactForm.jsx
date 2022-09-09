@@ -10,8 +10,8 @@ const [state, handleSubmit] = useForm("xoqrbvgv");
   }
 
   return (
-    <div className='w-screen h-full bg-gradient-to-tr from-zinc-800 to-indigo-600 font-outfit pb-24'>
-      <div className='pt-20 rounded-xl'>
+    <div className='w-screen h-full bg-gradient-to-tl to-[#8b5cf6] from-zinc-400 font-outfit pb-24'>
+      <div className='pt-24 rounded-xl'>
           <div className=' grid rounded-xl  text-center place-items-center text-white'>
             <p className='text-4xl md:text-6xl font-bold '>Lets get in contact!</p>
             <p className=' mt-2 px-5 py-2 text-3xl md:text-4xl'>Have something you want to tell me? Send me an email below!</p>
@@ -27,7 +27,7 @@ const [state, handleSubmit] = useForm("xoqrbvgv");
               <textarea className='border h-[150px] rounded-md focus:outline-none focus:ring focus:ring-violet-300 ' required={true} id="message" name="message"/>
               <ValidationError prefix="Message" field="message"errors={state.errors}/>
               <div className='pb-2 pt-5'>
-                <button className='font-bold hover:bg-indigo-200 text-indigo-600 pb-2 pt-2 bg-white rounded-xl w-[100px] text-center focus:outline-none focus:ring focus:ring-violet-300 ' type="submit" disabled={state.submitting}>Send it!</button>
+                <button className='font-bold hover:bg-violet-200 text-violet-600 pb-2 pt-2 bg-white rounded-xl w-[100px] text-center focus:outline-none focus:ring focus:ring-violet-300 ' type="submit" disabled={state.submitting}>Send it!</button>
               </div>
             </div>
           </form>
