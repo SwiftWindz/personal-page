@@ -35,7 +35,7 @@ const [state, handleSubmit] = useForm("xoqrbvgv");
               </div>
             </div>
             <div className=' w-full'>
-              <button className='font-bold rounded-b-xl bg-white text-violet-600 pb-2 pt-2 w-full text-center focus:outline-none focus:ring focus:ring-violet-300 hover:bg-violet-200 ' type="submit" disabled={state.submitting}>Send it!</button>
+              <button className='font-bold rounded-b-xl bg-violet-500 text-white pb-2 pt-2 w-full text-center focus:outline-none focus:ring focus:ring-violet-300 hover:bg-violet-400 ' type="submit" disabled={state.submitting}>Send it!</button>
             </div>
             {/* <div className='grid  grid-cols-1 max-w-[500px] justify-center text-black'>
               <label className='font-bold text-white pb-2' htmlFor="email">Email Address</label>

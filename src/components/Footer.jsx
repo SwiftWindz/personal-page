@@ -16,10 +16,10 @@ export default function Footer() {
         <p className='font-bold'>© 2022 Phil Ganem </p>
             <div>
             <div className='flex justify-between sm:w-[300px] pt-2 text-2xl'>
-                <a className="hover:text-[#a985fc]" href="https://github.com/SwiftWindz"><FaGithub /></a>
-                <a className="hover:text-[#a985fc]" href="https://github.com/SwiftWindz/personal-page"><FaCode /></a>
-                <a className="hover:text-[#a985fc]" href="https://www.linkedin.com/in/phil-ganem/"><FaLinkedin /></a>
-                <a className="hover:text-[#a985fc]" aria-disabled="false" target="_self" href="mailto:philthesoftdev@gmail.com?subject=Hello there!"><MdEmail /></a>
+                <a className="hover:text-violet-400" href="https://github.com/SwiftWindz"><FaGithub /></a>
+                <a className="hover:text-violet-400" href="https://github.com/SwiftWindz/personal-page"><FaCode /></a>
+                <a className="hover:text-violet-400" href="https://www.linkedin.com/in/phil-ganem/"><FaLinkedin /></a>
+                <a className="hover:text-violet-400" aria-disabled="false" target="_self" href="mailto:philthesoftdev@gmail.com?subject=Hello there!"><MdEmail /></a>
             </div>
             </div>
         </div>

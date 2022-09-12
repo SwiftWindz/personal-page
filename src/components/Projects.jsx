@@ -24,13 +24,13 @@ export default function Projects() {
                   Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two modes, endless and premade mode. In endless, players would navigate an endless procedural generated dungeon in search of loot to increase their profile score. They could quit and return at any time to the same map. In premade mode, players could choose from a list of premade dungeons with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles.
                   </p>
                   <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 p-6'>
-                  <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>JavaFX</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
+                  <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Java</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>JavaFX</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Dungeon">View Code</a></button>
+                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Dungeon">View Code</a></button>
                   </div> 
                 </div>
               </div>
@@ -48,13 +48,13 @@ export default function Projects() {
                     Users could also submit their own foods to the database for future use in their meal plans
                   </p>
                   <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 p-6'>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>Python</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>Flask</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Python</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Flask</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/NutritionApp">View Code</a></button>
+                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/NutritionApp">View Code</a></button>
                   </div>
                 </div>
               </div>
@@ -71,12 +71,12 @@ export default function Projects() {
                     and view the rules at any time.
                   </p>
                   <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 p-6 justify-center  '>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>Java Spark</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Java</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Java Spark</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Online-Checkers">View Code</a></button>
+                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Online-Checkers">View Code</a></button>
                   </div>
                 </div>
               </div>
@@ -93,13 +93,13 @@ export default function Projects() {
                     
                   </p>
                   <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 p-6 justify-center  '>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
-                    <h2 className='bg-violet-200 px-2 rounded-lg text-center shadow-sm text-sm'>Axios</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>React.js</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>TailwindCSS</h2>
+                    <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Axios</h2>
                   </div>
                   <div className=' text-center grid gap-4'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Cocktail-Cabinet">View Code</a></button>
-                    <button className='bg-violet-500 hover:text-violet-200 px-2 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://swiftwindz.github.io/Cocktail-Cabinet/">View Website</a></button>
+                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Cocktail-Cabinet">View Code</a></button>
+                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://swiftwindz.github.io/Cocktail-Cabinet/">View Website</a></button>
                   </div>
                 </div>
               </div>
