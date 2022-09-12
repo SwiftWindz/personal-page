@@ -30,7 +30,7 @@ export default function Projects() {
                     <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Dungeon">View Code</a></button>
+                    <button className='bg-violet-500 hover:bg-violet-400 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Dungeon">View Code</a></button>
                   </div> 
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function Projects() {
                     <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>PostgreSQL</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/NutritionApp">View Code</a></button>
+                    <button className='bg-violet-500 hover:bg-violet-400 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/NutritionApp">View Code</a></button>
                   </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export default function Projects() {
                     <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>JUnit</h2>
                   </div>
                   <div className=' text-center grid'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Online-Checkers">View Code</a></button>
+                    <button className='bg-violet-500 hover:bg-violet-400 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Online-Checkers">View Code</a></button>
                   </div>
                 </div>
               </div>
@@ -98,8 +98,8 @@ export default function Projects() {
                     <h2 className='bg-violet-200 px-1 rounded-lg text-center shadow-sm text-sm'>Axios</h2>
                   </div>
                   <div className=' text-center grid gap-4'>
-                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Cocktail-Cabinet">View Code</a></button>
-                    <button className='bg-violet-500 hover:text-violet-200 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://swiftwindz.github.io/Cocktail-Cabinet/">View Website</a></button>
+                    <button className='bg-violet-500 hover:bg-violet-400 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://github.com/SwiftWindz/Cocktail-Cabinet">View Code</a></button>
+                    <button className='bg-violet-500 hover:bg-violet-400 px-1 rounded-lg text-center shadow-sm text-lg text-white'><a target="_blank" rel="noreferrer noopener" href="https://swiftwindz.github.io/Cocktail-Cabinet/">View Website</a></button>
                   </div>
                 </div>
               </div>
