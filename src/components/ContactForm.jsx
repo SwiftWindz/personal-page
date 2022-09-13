@@ -25,7 +25,7 @@ const [state, handleSubmit] = useForm("xoqrbvgv");
                 </div>
                 <div>
                   <p className='text-sm text-gray-400'>Email</p>
-                  <input className='focus:outline-none border-b-2 focus:border-violet-300 bg-zinc-800 border-r-0 ' id="email" type="email" name="email" required={true}/>
+                  <input className='focus:outline-none border-b-2 focus:border-violet-300 bg-zinc-800 border-r-0' id="email" type="email" name="email" required={true}/>
                 </div>
               </div>
               <div className='border-t-2 md:border-t-0 pb-8'>

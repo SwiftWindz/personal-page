@@ -39,7 +39,7 @@ export default function Projects() {
 
             <div className=" pt-8">
               <div className="rounded-lg shadow-lg bg-zinc-800 max-w-xl">
-                <img className="rounded-t-lg" src="http://placehold.jp/8b5cf6/ffffff/780x520.png?text=Placeholder%0A" alt=""/>
+                <img className="rounded-t-lg" src="https://placehold.jp/8b5cf6/ffffff/780x520.png?text=Placeholder%0A" alt=""/>
                 <div className="p-6">
                   <h5 className="text-[#8b5cf6]   text-xl font-bold mb-2 text-center ">Nutrikit</h5>
                   <p className="text-gray-100 text-base text-center">

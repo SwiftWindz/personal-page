@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type="search"] {
+input {
     -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
   }
